@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:url("bg.png");
+}
+
+
+
+li{
+    list-style: none;
+    padding: 0 5% 0 5%;
+    z-index: 1;
+}
+
+.content-section-1{
+    color: gray;
+    padding: 2rem 0;
+}
+
+.h1, h1{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.woman {
+    height: 25rem;
+    width: 18rem;
+    z-index: 2;
+}
+.zig-zag {
+    height: 19rem;
+    width: 23rem;
+    z-index: 1;
+    top: 8rem;
+    left: -1rem;
+}
+.rhombus {
+    z-index: 0;
+    height: 10rem;
+    width: 10rem;
+    top: 4.5rem;
+    left: 9rem;
+}
+.OurCreativeTeam{
+z-index: 3;
+height: 8rem;
+top: 23rem;
+padding: 20px;
+border-radius: 0.2rem;
+background-color: rgba(255, 255, 255, 0.883);
+border: .5px solid white;
+    left: -12rem;
+    /* width: 15rem; */
+    font-size: medium;
+}
+
+
+.ellips16{
+    left: 3.5rem;
+}
+
+.ellips17{
+    left: 6.25rem;
+}
+
+.ellips18{
+    left: 8.8rem;
+}
+
+.plus{
+    left: 11.5rem;
+}
+
+.facebook{
+    left: 2rem;
+}
+
+.instagram{
+    top: 5rem;
+    left: 20rem;
+}
+
+.twiter{
+    z-index: 4;
+    top: 14rem;
+    left: 1rem;
+}
+
+.card_image{
+    height: 7rem;
+    width: 7rem;
+}
+
+.right_arrow{
+    height: 1rem;
+    width: 1rem;
+}
+
+.card{
+    font-size: 12px;
+    padding: 20em;
+}
+
+.opt:hover{
+    border-bottom: 3px solid blue;
+    background-color: whitesmoke;
+}
+.num{
+    height: 8rem;
+    width: 4rem;
+    top: 1rem;
+    left: 6rem;
+    color: aqua;
+    /* z-index: 0; */
+}
+
+.opt-logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.opt {
+    background-color: aliceblue;
+    z-index: 2;
+}
+.box-circle {
+    z-index: 0;
+    left: 65rem;
+    height: 20rem;
+    width: 20rem;
+}
+.card-text {
+    font-size: 0.6rem;
+   
+}
+
+.optimize-container{
+    padding: 0 0 10rem 0;
+}
+
+.section_5{
+    background-color: aqua;
+    padding: 30rem 0  0 10rem;
+}
+
