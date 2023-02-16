@@ -6,11 +6,17 @@
 }
 body{
     background-image:url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
 }
 
-
-
-li{
+.li_1{
     list-style: none;
     padding: 0 5% 0 5%;
     z-index: 1;
@@ -27,35 +33,40 @@ li{
 }
 
 .woman {
+    /* left: ; */
     height: 25rem;
     width: 18rem;
-    z-index: 2;
+    z-index: 3;
+    
 }
 .zig-zag {
     height: 19rem;
-    width: 23rem;
+    width: 20rem;
     z-index: 1;
-    top: 8rem;
-    left: -1rem;
+    top: 12rem;
+    left: -5rem;
+
 }
 .rhombus {
     z-index: 0;
     height: 10rem;
     width: 10rem;
-    top: 4.5rem;
-    left: 9rem;
+    top: 9.5rem;
+    left: 7rem;
 }
 .OurCreativeTeam{
-z-index: 3;
+z-index: 4;
 height: 8rem;
-top: 23rem;
+/* top: 17rem; */
+top: 20rem;
 padding: 20px;
 border-radius: 0.2rem;
 background-color: rgba(255, 255, 255, 0.883);
 border: .5px solid white;
-    left: -12rem;
-    /* width: 15rem; */
-    font-size: medium;
+/* left: -11rem; */
+left: -4rem;
+/* width: 17rem; */
+font-size: medium;
 }
 
 
@@ -76,18 +87,19 @@ border: .5px solid white;
 }
 
 .facebook{
-    left: 2rem;
+    /* left: 1rem; */
+    top: 6rem;
 }
 
 .instagram{
-    top: 5rem;
-    left: 20rem;
+    top: 10rem;
+    left: 10rem;
 }
 
 .twiter{
     z-index: 4;
-    top: 14rem;
-    left: 1rem;
+    top: 18rem;
+    left: -2rem;
 }
 
 .card_image{
@@ -100,7 +112,7 @@ border: .5px solid white;
     width: 1rem;
 }
 
-.card{
+.card_1{
     font-size: 12px;
     padding: 20em;
 }
@@ -127,12 +139,14 @@ border: .5px solid white;
     background-color: aliceblue;
     z-index: 2;
 }
-.box-circle {
+/* .box-circle {
     z-index: 0;
     left: 65rem;
     height: 20rem;
     width: 20rem;
-}
+} */
+
+
 .card-text {
     font-size: 0.6rem;
    
@@ -142,8 +156,93 @@ border: .5px solid white;
     padding: 0 0 10rem 0;
 }
 
-.section_5{
-    background-color: aqua;
-    padding: 30rem 0  0 10rem;
+
+    
+
+.for_you:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    
 }
 
+.card_ChooseUs{
+    background-color: white;
+}
+
+.card_ChooseUs:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.why_do_you_need_email:hover{
+    box-shadow: rgba(178, 174, 51, 0.35) 0px 5px 15px;
+}
+.stat-card{
+    width: 40rem;
+}
+
+.stat-num {
+    font-size: 2.5rem;
+}
+
+.input_web_url{
+ border: none;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ padding:0.5rem 0 ;
+ margin: 0 -0.15rem 0 0;
+}
+
+.input_email{
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding:0.5rem 0 ;
+        margin: 0  0 0 -0.15rem;
+}
+
+.button_outplans{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.ourplans_card{
+margin: 1rem;
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+
+.ourplans_card:hover{
+    background-color:  #6F77F1;
+    
+    color: white;
+    box-shadow: rgba(178, 174, 51, 0.35) 0px 5px 15px;
+    
+    
+
+}
+
+.extert_team_icons{
+    padding: 0 0.75rem;
+}
+
+.client-text {
+    z-index: 1;
+}
+.quote-logo {
+    z-index: 0;
+}
+
+.subscribe{
+    background-color: #6F77F1;
+    color: white;
+}
+
+.why_do_you_need_email>img{
+height: 50%;
+}
+
+.why_do_you_need_email{
+    font-size: 80%;
+}
