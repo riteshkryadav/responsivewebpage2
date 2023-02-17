@@ -33,18 +33,20 @@ ul {
 }
 
 .woman {
-    /* left: ; */
+    max-width: 100%;
     height: 25rem;
     width: 18rem;
     z-index: 3;
     
 }
 .zig-zag {
+ 
     height: 19rem;
     width: 20rem;
     z-index: 1;
     top: 12rem;
     left: -5rem;
+    /* max-width: 100%; */
 
 }
 .rhombus {
@@ -57,18 +59,18 @@ ul {
 .OurCreativeTeam{
 z-index: 4;
 height: 8rem;
-/* top: 17rem; */
 top: 20rem;
 padding: 20px;
 border-radius: 0.2rem;
 background-color: rgba(255, 255, 255, 0.883);
 border: .5px solid white;
-/* left: -11rem; */
 left: -4rem;
-/* width: 17rem; */
 font-size: medium;
 }
 
+.solution_for_business_laptop{
+    max-width: 100%;
+}
 
 .ellips16{
     left: 3.5rem;
@@ -121,43 +123,63 @@ font-size: medium;
     border-bottom: 3px solid blue;
     background-color: whitesmoke;
 }
+
 .num{
     height: 8rem;
     width: 4rem;
     top: 1rem;
     left: 6rem;
-    color: aqua;
-    /* z-index: 0; */
+    color: rgb(0, 255, 191);
 }
 
+.card_image{
+    max-width: 100%;
+}
+
+/* ......................... */
+
+
+.navbar-items {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+ }
+
+ .navbar-items::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #6f77f1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+ }
+ 
+ .navbar-items:hover::after {
+    transform: scaleX(.75);
+   
+    transform-origin:center;
+ }
+
+
+
+/* ........................ */
 .opt-logo{
     height: 3rem;
     width: 3rem;
 }
 
 .opt {
-    background-color: aliceblue;
+    /* background-color: rgb(50, 79, 105); */
     z-index: 2;
 }
-/* .box-circle {
-    z-index: 0;
-    left: 65rem;
-    height: 20rem;
-    width: 20rem;
-} */
-
-
 .card-text {
     font-size: 0.6rem;
    
 }
-
-.optimize-container{
-    padding: 0 0 10rem 0;
-}
-
-
-    
 
 .for_you:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -194,10 +216,10 @@ font-size: medium;
  margin: 0 -0.15rem 0 0;
 }
 
-.input_email{
+.input_email , .input_web_url{
         border: none;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
+        
+      
         padding:0.5rem 0 ;
         margin: 0  0 0 -0.15rem;
 }
@@ -212,16 +234,36 @@ margin: 1rem;
     background-color:aliceblue;
     border-radius: 5px;
 }
+/* .ourplans_card_heading{
+        color: #6F77F1;
+} */
+
 
 .ourplans_card:hover{
-    background-color:  #6F77F1;
-    
+    /* background-color:  #6F77F1; */
+background-image: url("./Iconly/Mask\ group.svg");
+background-size: cover;
+transform: scale(1.1);
+background-color: #6F77F1;
+transition: 300ms ease-in-out;
+    text-decoration: none;
     color: white;
     box-shadow: rgba(178, 174, 51, 0.35) 0px 5px 15px;
     
     
 
 }
+
+.ourplans_card button:hover{
+    background-color: rgba(226, 250, 10, 0.893);
+    border-color: none;
+}
+
+.choose_us_img{
+    max-width:100% ;
+    max-height: 25%;
+}
+
 
 .extert_team_icons{
     padding: 0 0.75rem;
@@ -246,3 +288,46 @@ height: 50%;
 .why_do_you_need_email{
     font-size: 80%;
 }
+
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .swiper {
+    width: 100%;
+
+  }
+
+  .swiper-slide {
+
+  
+
+ 
+    justify-items: center;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper_li{
+    background-image: url("./Iconly/“.png");
+    background-repeat: no-repeat;
+  }
+  .swiper-slide img {
+    display: block;
+    max-width: 100%;
+   
+    object-fit:fill;
+  }
