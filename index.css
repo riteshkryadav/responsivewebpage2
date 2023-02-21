@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: url("./Iconly/backgroundImage.svg");
+  background-image: url("./images/backgroundImage.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -249,9 +249,6 @@ h1 {
   max-height: 25%;
 }
 
-.extert_team_icons {
-  padding: 0 0.75rem;
-}
 
 @media only screen and (max-device-width: 590px) {
   .card_image {
@@ -305,9 +302,12 @@ h1 {
     flex: 0 0 auto;
     width: 100%;
   }
-  .col-sm-4 {
+  .col-sm-3 {
     flex: 0 0 auto;
-    width: 100%;
+    width: 80%;
+  }
+  .col-sm-2{
+    width: 40%;
   }
 }
 
@@ -377,4 +377,8 @@ img {
   max-width: 100%;
 
   object-fit: fill;
+}
+
+.btn-warning:hover{
+  background-color: rgba(144, 183, 251, 0.887);
 }
